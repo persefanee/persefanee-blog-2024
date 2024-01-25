@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 0;
+}
+
+main p {
+    text-align: justify;
+}
+
+.navbar {
+    width: 85%;
+    margin: -2px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 80px;
+    cursor: pointer;
+}
+
+.foto {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #FF4F37;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    padding: -2px;
+}
+
+header nav ul {
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #2FB99F;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+header nav ul li {
+    margin: 10px 0;
+}
+
+header nav li a {
+    display: block;
+    padding: 0.625em;
+    color: black;
+    text-decoration: none;
+    font-size: large;
+}
+
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    border: 2px solid #FF4F37;
+    background: #EFF3F2;
+    cursor: pointer;
+}
+
+main div button a {
+    color: black;
+    text-decoration: none;
+}
